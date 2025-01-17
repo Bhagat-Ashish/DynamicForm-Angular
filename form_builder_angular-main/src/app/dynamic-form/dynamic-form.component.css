@@ -1,0 +1,99 @@
+/* Container styling */
+.container {
+  max-width: 450px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #86ae88;  /* Parrot green */
+  border-radius: 8px;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f9f2;  /* Soft background green */
+}
+
+/* Form title */
+.form-title {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #86ae88;  /* Parrot green */
+  font-weight: bold;
+}
+
+/* Form group styling */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Label styling */
+.form-label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 15px;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Input and select styling */
+.form-input,
+.form-select {
+  width: 100%;
+  padding: 12px;
+  font-size: 14px;
+  border: 1px solid #86ae88;  /* Lighter green */
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #ffffff; /* White background for inputs */
+  transition: border-color 0.3s ease;
+}
+
+.form-input:focus,
+.form-select:focus {
+  border-color: #86ae88;  /* Highlighted with parrot green */
+  outline: none;
+}
+
+/* Checkbox styling */
+.form-checkbox {
+  margin-right: 8px;
+}
+
+/* Radio button group styling */
+.form-radio-group label {
+  display: block;
+  font-size: 14px;
+  color: #333;
+  margin-top: 8px;
+}
+
+.form-radio {
+  margin-right: 10px;
+}
+
+/* Button styling */
+.form-button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #ffeb3b;  /* Parrot yellow */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+  background-color: #fbc02d;  /* Darker yellow */
+}
+
+/* General input styling when in focus or active */
+.form-input:focus,
+.form-select:focus,
+.form-button:focus {
+  outline: none;
+}
+
+/* For radio inputs, when focused */
+input[type="radio"]:focus {
+  outline: none;
+  border: 2px solid #86ae88;
+}

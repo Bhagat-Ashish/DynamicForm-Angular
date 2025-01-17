@@ -1,0 +1,127 @@
+/* General body padding */
+body {
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Form container adjustments */
+.frm {
+  width: 96% !important;
+}
+
+/* Table margin */
+.tbl {
+  margin-bottom: 10px;
+}
+
+/* New Component Styling */
+.new-comp {
+  border: 1px solid #86ae88; /* Parrot green border */
+  background-color: #f4f9f2; /* Soft background green */
+  width: 700px; /* Increased width */
+  height: 400px;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px auto; /* Center the box horizontally */
+}
+
+/* Headings Styling */
+.headings {
+  color: #ffeb3b; /* Parrot yellow */
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Container Styling */
+.container {
+  max-width: 700px; /* Increased container width */
+  margin: auto;
+  background-color: #f4f9f2; /* Soft green background */
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #86ae88; /* Parrot green border */
+}
+
+/* Input group styling */
+.input-group {
+  margin-bottom: 15px;
+}
+
+/* Label Styling */
+.input-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 15px;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Input, select, and button styling */
+.input-group input,
+.input-group select,
+button {
+  width: 100%;
+  padding: 12px;
+  font-size: 14px;
+  margin-bottom: 15px;
+  border: 1px solid #86ae88; /* Lighter green border */
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #ffffff; /* White background for inputs */
+  transition: border-color 0.3s ease;
+}
+
+/* Focus states for inputs and select */
+.input-group input:focus,
+.input-group select:focus,
+button:focus {
+  border-color: #86ae88; /* Highlighted border on focus */
+  outline: none;
+}
+
+/* Button Styling */
+button {
+  background-color: #86ae88; /* Parrot yellow */
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: auto; /* Standard width for buttons */
+  padding: 12px 20px; /* Make buttons a bit wider */
+  margin-left: 20px;
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #86ae88; /* Darker yellow on hover */
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+table th {
+  background-color: #f4f4f4; /* Light background for headers */
+  color: #333;
+}
+
+/* Preformatted text block */
+pre {
+  background-color: #f9f9f9; /* Light background */
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+}
